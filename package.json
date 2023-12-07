@@ -1,0 +1,37 @@
+{
+  "name": "prueba_tecnica",
+  "version": "1.0.0",
+  "description": "Prueba tecnica SOLATI S.A.S (Esteban Londoño Ospina)",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "npx nodemon index.ts",
+    "start": "node index.ts",
+    "db:migrate": "npx sequelize-cli db:migrate",
+    "db:seed": "npx sequelize-cli db:seed:all"
+  },
+  "author": "Esteban Londoño Ospina",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/express": "^4.17.17",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.15.3",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "faker": "^6.6.6",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.7.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.18.0",
+    "ts-node": "^10.9.1"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "nodemon": "^2.0.15",
+    "sequelize-cli": "^6.4.1",
+    "typescript": "^5.0.2"
+  }
+}

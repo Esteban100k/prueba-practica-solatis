@@ -1,0 +1,105 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "API Test",
+    "dateExported": "2023-12-07T01:15:31.767Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "6b964419-debb-4f28-9d6a-857429dfe546",
+            "name": "User",
+            "containerId": "",
+            "created": "2023-12-06T20:39:28.793Z",
+            "sortNum": 10000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "73b94c18-c630-47b7-9ce4-1527a23f08f1",
+            "colId": "83a8c7be-2c51-4e89-8292-11767a07b03d",
+            "containerId": "6b964419-debb-4f28-9d6a-857429dfe546",
+            "name": "Create",
+            "url": "http://localhost:5000/api/users",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-12-06T20:40:04.617Z",
+            "modified": "2023-12-06T23:33:00.470Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"firstName\":\"Leidy\",\n  \"lastName\": \"Laura\",\n  \"email\": \"leidy12@gmail.com\",\n  \"password\":\"PruebaTecnica02\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJmaXJzdE5hbWUiOiJFc3RlYmFuIiwibGFzdE5hbWUiOiJMb25kb8OxbyIsImVtYWlsIjoic3RlYmFubG9uZG83NUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCRqU0NqSEJmTktDNzQuZkJxM3p6bS9PQ2FsNi5NOGtWcDVzNHYvZ2FqZmxJZ280dFVzb2FMeSJ9LCJpYXQiOjE3MDE5MDM2MDh9.n50DT5jvrVtM2zme6DBmJyADHEX6fZdyLe2f1L9RGSk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "621b30cd-58f1-4ca6-9555-a1786ca967fc",
+            "colId": "83a8c7be-2c51-4e89-8292-11767a07b03d",
+            "containerId": "6b964419-debb-4f28-9d6a-857429dfe546",
+            "name": "Login",
+            "url": "http://localhost:5000/api/users/login",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-12-06T21:43:43.232Z",
+            "modified": "2023-12-06T21:47:09.047Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"stebanlondo75@gmail.com\",\n  \"password\":\"PruebasDev01.\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "659f69b0-9562-459f-9bd7-74a6de35b27c",
+            "colId": "83a8c7be-2c51-4e89-8292-11767a07b03d",
+            "containerId": "6b964419-debb-4f28-9d6a-857429dfe546",
+            "name": "Update",
+            "url": "http://localhost:5000/api/users",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-12-06T22:53:44.104Z",
+            "modified": "2023-12-07T01:02:06.404Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\": \"leidy12@gmail.com\",\n  \"firstName\":\"Leidy Laura\",\n  \"lastName\": \"Cleves Pineda\"\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJmaXJzdE5hbWUiOiJFc3RlYmFuIiwibGFzdE5hbWUiOiJMb25kb8OxbyIsImVtYWlsIjoic3RlYmFubG9uZG83NUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCRqU0NqSEJmTktDNzQuZkJxM3p6bS9PQ2FsNi5NOGtWcDVzNHYvZ2FqZmxJZ280dFVzb2FMeSJ9LCJpYXQiOjE3MDE5MDM2MDh9.n50DT5jvrVtM2zme6DBmJyADHEX6fZdyLe2f1L9RGSk"
+            },
+            "tests": []
+        },
+        {
+            "_id": "39202ae3-5a04-4079-aff6-1f35d956fe57",
+            "colId": "83a8c7be-2c51-4e89-8292-11767a07b03d",
+            "containerId": "6b964419-debb-4f28-9d6a-857429dfe546",
+            "name": "Delete",
+            "url": "http://localhost:5000/api/users",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-12-06T23:32:28.871Z",
+            "modified": "2023-12-07T01:02:23.930Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"id\": 3\n}",
+                "form": []
+            },
+            "auth": {
+                "type": "bearer",
+                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoxLCJmaXJzdE5hbWUiOiJFc3RlYmFuIiwibGFzdE5hbWUiOiJMb25kb8OxbyIsImVtYWlsIjoic3RlYmFubG9uZG83NUBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYSQxMCRqU0NqSEJmTktDNzQuZkJxM3p6bS9PQ2FsNi5NOGtWcDVzNHYvZ2FqZmxJZ280dFVzb2FMeSJ9LCJpYXQiOjE3MDE5MDM2MDh9.n50DT5jvrVtM2zme6DBmJyADHEX6fZdyLe2f1L9RGSk"
+            },
+            "tests": []
+        }
+    ]
+}
